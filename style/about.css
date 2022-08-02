@@ -1,0 +1,169 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+#pic
+{
+    position: absolute;
+    left: 5%;
+}
+#inf
+{
+    position:absolute; 
+    left:340px; 
+    background-color:crimson; 
+    width:73%; 
+    padding-left: 10px; 
+    height: 320px;
+    color: aliceblue;
+}
+#fd
+{
+    position: absolute;
+    height: 1100PX;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 10px crimson;
+    color: black;
+    align-items: left;
+    top: 200px;
+    width: 100%;
+    
+}
+.top
+{
+    position: fixed;
+    width: 100%;
+    background-color: aliceblue;
+}
+h1
+{
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 35px;
+    font-size: 48px;
+    
+}
+nav
+{
+    padding-top: 0px;
+    margin-top: 0px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    background-color: crimson;
+}
+#menub
+{
+    display: none;
+}
+
+body
+{
+    background-image: url("../images/Kazz\'s\ Wallpaper\ Pack\ -\ Wallpaper\ 47.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cont
+{
+    text-align: center;
+}
+
+h2
+{
+    position: relative;
+    top: 110px;
+}
+legend
+{
+    font-size: 42px;
+    text-shadow: 0px 0px 5px black;
+    color: aliceblue;
+}
+.foot
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: crimson;
+    text-align: center;
+    color: aliceblue;
+}
+a
+{
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+a:hover
+{
+    text-decoration: underline;
+    color: aliceblue;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#id
+{
+    background-color: black;
+    opacity: 0;
+}
+#ed
+{
+    position: absolute;
+    top: 340px;
+    width: 320px;
+    height: 320px;
+    background-color: aliceblue;
+    color: black;
+    left: 76%;
+    text-align: center;
+    border-style: none;
+    box-shadow: 0px 0px 5px black;
+}
+#sc
+{
+    position:absolute; 
+    left:1%;  
+    width:73%; 
+    padding-left: 10px; 
+    height: 320px;
+    color: aliceblue;
+    background-color: crimson; 
+    top:340px;
+    box-shadow: 0px 0px 5px black;  
+}
+h4,#exx
+{
+    position: absolute;
+    top: 140px;
+    font-size: 32px;
+    left: 85px;
+}
+#xp
+{
+    position:absolute; 
+    left:340px;  
+    width:73%; 
+    padding-left: 10px; 
+    height: 320px;
+    color: aliceblue;
+    background-color: crimson; 
+    top:680px;
+    box-shadow: 0px 0px 5px black;  
+}
+#ex
+{
+    position: absolute;
+    top: 680px;
+    width: 320px;
+    height: 320px;
+    background-color: aliceblue;
+    color: black;
+    left: 1%;
+    text-align: center;
+    border-style: none;
+    box-shadow: 0px 0px 5px black;
+}

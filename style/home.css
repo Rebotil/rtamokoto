@@ -1,0 +1,92 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.top
+{
+    position: fixed;
+    width: 100%;
+    background-color: aliceblue;
+}
+h1
+{
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 35px;
+    font-size: 48px;
+    
+}
+nav
+{
+    padding-top: 0px;
+    margin-top: 0px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    background-color: crimson;
+}
+#menub
+{
+    display: none;
+}
+a
+{
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+a:hover
+{
+    text-decoration: underline;
+    color: aliceblue;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+body
+{
+    background-image: url("../images/Kazz\'s\ Wallpaper\ Pack\ -\ Wallpaper\ 47.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cont
+{
+    position: absolute;
+    top: 200px;
+    width: 50%;
+    left: 25%;
+    text-align: center;
+    height: 300px;
+}
+fieldset
+{
+    height: 300px;
+    background-color: aliceblue;
+    border-radius: 70px;
+    opacity: 0.8;
+    box-shadow: 0px 0px 10px crimson;
+    
+}
+h2
+{
+    position: relative;
+    top: 110px;
+}
+legend
+{
+    font-size: 42px;
+    text-shadow: 0px 0px 5px black;
+    color: aliceblue;
+}
+.foot
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: crimson;
+    text-align: center;
+    color: aliceblue;
+}
