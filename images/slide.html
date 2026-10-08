@@ -1,0 +1,39 @@
+<!-- Rebotile Mokoto - Portfolio Slider -->
+<div class="rm-slider">
+  <div class="slides">
+    <img src="1.jpg" alt="Software Development - Frontend">
+    <img src="2.jpg" alt="Software Development - Backend">
+    <img src="3.jpg" alt="Electronics & Embedded">
+    <img src="4.jpg" alt="Desktop Applications">
+    <img src="5.jpg" alt="Games Programming">
+  </div>
+  <div class="overlay">
+    <h1>Rebotile Mokoto</h1>
+    <p>Software Development • Electronics • Games • Desktop Apps</p>
+  </div>
+</div>
+
+<style>
+.rm-slider { position: relative; width: 100%; height: 500px; overflow: hidden; border-radius: 12px; }
+.slides { display: flex; width: 500%; animation: slide 20s infinite; }
+.slides img { width: 20%; height: 500px; object-fit: cover; }
+.overlay {
+  position: absolute; bottom: 0; width: 100%;
+  background: linear-gradient(transparent, rgba(10,25,47,0.95));
+  color: white; padding: 30px; text-align: center;
+}
+@keyframes slide {
+  0%,20% { transform: translateX(0); }
+  25%,45% { transform: translateX(-20%); }
+  50%,70% { transform: translateX(-40%); }
+  75%,90% { transform: translateX(-60%); }
+  95%,100% { transform: translateX(-80%); }
+}
+</style>
+
+<script>
+// Auto slide + pause on hover
+const slider = document.querySelector('.slides');
+slider.addEventListener('mouseenter', () => slider.style.animationPlayState = 'paused');
+slider.addEventListener('mouseleave', () => slider.style.animationPlayState = 'running');
+</script>
